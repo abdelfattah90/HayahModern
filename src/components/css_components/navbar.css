@@ -1,0 +1,20 @@
+.bg-nav{
+    background-color: #6aa19a;
+    direction: rtl;
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
+.list-bold{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-family:diwany;
+    font-size: 30px;
+}
+

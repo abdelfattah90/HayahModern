@@ -1,0 +1,10 @@
+RewriteOptions inherit
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^hayahmodern\.com$ "https\:\/\/hayahmodern\.com\/" [R=301,L]
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ / [L,QSA]
+</IfModule>

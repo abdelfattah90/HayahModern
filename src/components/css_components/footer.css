@@ -1,0 +1,32 @@
+.contact{
+    background-color: #ebebebee;
+    text-align: center;
+    padding: 60px 0;
+    font-family:Swissra
+}
+
+.sm-icons{
+    font-size: 60px;
+    border-radius: 3px;
+    
+  }
+  
+  .fa-instagram{
+    color: #c433b0bd;
+    
+    margin: 5px;
+  }
+  .messenger{
+    color: #0084ff;
+    margin: 5px;
+  }
+  .whatsapp{
+    color: #1c9e4c;
+    margin: 5px;
+  }
+
+.call{
+  color: #247dd6;
+    margin: 5px;
+}
+

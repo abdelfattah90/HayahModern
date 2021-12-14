@@ -1,0 +1,51 @@
+.cover-middle{
+    height: 400px;
+    background-color: #61964f;
+    position: relative;
+    background-image: url("./bannerBcg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  
+  .cover-middle:before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(139, 139, 139, 0.027);
+    background-size: cover;
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    .cover-middle{
+      height: 300px;
+  }
+  }
+
+  .contants-middle{
+    color:white;
+    border-radius: 5px;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  .name-middle{
+    color: #000000;
+    font-weight:bold;
+    font-family:Swissra;
+    text-align: center;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .name-middle{
+      font-size: 23px;
+    }
+  }
+

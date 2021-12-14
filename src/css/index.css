@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+@font-face{src:url(./fonts/Droid.ttf);font-family:Droid}
+@font-face{src:url(./fonts/Swissra-Normal.otf);font-family:Swissra}
+@font-face{src:url(./fonts/Ulamjad.ttf);font-family:Ulamjad}
+@font-face{src:url(./fonts/Hayah.otf);font-family:Hayah}
+@font-face{src:url(./fonts/arbfonts-diwany-thuluth.ttf);font-family:diwany}
+
+body {
+  margin: 0;
+  font-family:Droid;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+}
+

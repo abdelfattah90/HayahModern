@@ -1,0 +1,104 @@
+
+/* Start Cover */
+.cover-pg{
+    background-color: #dddddd4b;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  /*
+  .cover-pg:before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(99, 82, 36, 0.425);
+    background-size: cover;
+  }
+  */
+
+  @media screen and (max-width: 480px) {
+    .cover-pg{
+      height: 250px;
+  }
+  }
+
+  .contants-pg{
+    color:white;
+    border-radius: 5px;
+    padding: 50px 30px;
+  }
+
+  .slogn-pg{
+    color: #000000;
+    font-size: 40px;
+    font-family:Hayah;
+    text-shadow: 1px 1px  rgba(0, 0, 0, 0.781);
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .name-pg{
+      font-size: 23px;
+    }
+
+  }
+/*End Cover */
+
+.show-items{
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.178);
+    padding: 20px 0 ;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.image-item{
+  width: 100%;
+  box-shadow: 5px 10px 20px 0px rgba(202, 202, 202, 0.781);
+   
+}
+
+.contant-info{
+    padding-top: 20px;
+    
+}
+/* Start Icons */
+
+.show-carousel{
+    cursor: pointer;
+}
+
+.line-items{
+    border-bottom: #b9b9b9c9 1px solid ;
+    width: 70%;
+    margin: 0 auto;
+}
+.icons-fixed{
+  position: fixed;
+  margin-top: 200px;
+}
+
+.whatsapp2{
+  color: #1c9e4c;
+  font-size: 35px;
+  
+}
+
+.call2{
+color: #247dd6;
+
+font-size: 35px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  color: rgb(0, 0, 0);
+    background-color: #73a5a1;
+}
+
+

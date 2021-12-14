@@ -1,0 +1,53 @@
+.cover{
+    height: 650px;
+    background-color: #e7e7e75e;
+    position: relative;
+    background-image: url("./cover-web.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    z-index: 1;
+  }
+  
+
+  
+
+  @media screen and (max-width: 480px) {
+    .cover{
+      height: 520px;
+      background-image: url("./cover-m.jpeg");
+  }
+  }
+
+  .contants{
+    color:white;
+    border-radius: 5px;
+    padding: 50px 30px;
+  }
+
+  .slogn1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family:Hayah;
+    text-shadow: 1px 2px  rgba(0, 0, 0, 0.781);
+  
+  }
+  .slogn2{
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 50px;
+    font-family:Ulamjad;
+    text-shadow: 1px 1px  rgba(0, 0, 0, 0.781)
+  }
+  @media screen and (max-width: 600px) {
+    .name{
+      font-size: 23px;
+    }
+    .slogn2{
+      font-weight:bold;
+      font-size: 40px;
+      text-align: center;
+      
+    }
+  }
+ 
